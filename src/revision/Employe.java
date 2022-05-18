@@ -39,4 +39,20 @@ public class Employe {
     public static int calculateSalary(int baseBase){
         return 56;
     }
+
+
+    public String toString(){
+        return String.format("{ id : %d , nom : %s , prenom : %s }",this.id,this.lastName
+                ,this.firstName);
+    }
+
+
+//    @Override
+//    public String toString() {
+//        return "Employe{" +
+//                "id=" + id +
+//                ", firstName='" + firstName + '\'' +
+//                ", lastName='" + lastName + '\'' +
+//                '}';
+//    }
 }

@@ -2,6 +2,10 @@ package revision;
 
 public class Main {
     public static void main(String[] args) {
+
+        Browser chrome=new Browser();
+        chrome.navigate("http://www.facebook.com");
+
         //Constructeur par défaut par défaut
         Employe chris=new Employe(1,"christian","lisangola");
         System.out.println("ID : "+chris.getId());
